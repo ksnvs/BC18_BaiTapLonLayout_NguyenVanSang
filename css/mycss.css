@@ -86,6 +86,7 @@ p {
   --heading-color: #818cab;
 }
 
+/* Start Header  */
 header {
   background-color: var(--bg-color);
   height: 90px;
@@ -178,3 +179,19 @@ header
   span::before {
   font-size: 12px;
 }
+
+/* End Header  */
+
+/* Start Main Slider  */
+
+section .slider-content .owl-theme .owl-nav {
+  display: none;
+}
+
+section .slider-content .owl-theme .owl-dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+}
+/* End Main Slider  */
