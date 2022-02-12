@@ -1190,6 +1190,7 @@ section.feedback
   .feedback-description
   .avarta-name
   h3 {
+  color: var(--heading-color);
   margin: 0;
   font-weight: 600;
   font-size: 20px;
