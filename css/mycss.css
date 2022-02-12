@@ -76,6 +76,7 @@ h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  font-size: 1.2em;
 }
 
 [data-theme="dark"] {
@@ -194,4 +195,221 @@ section .slider-content .owl-theme .owl-dots {
   right: 0;
   bottom: 30px;
 }
+
+section .slider-content .owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: var(--green-color);
+  width: 30px;
+  height: 10px;
+}
+
+section
+  .slider-content
+  .owl-theme
+  .owl-stage-outer
+  .owl-stage
+  .owl-item
+  .img-item
+  .banner-info
+  .container
+  .banner-description
+  h5 {
+  font-size: 66px;
+  line-height: 76px;
+  font-weight: 700;
+  color: var(--white-color);
+  text-transform: capitalize;
+}
+
+section
+  .slider-content
+  .owl-theme
+  .owl-stage-outer
+  .owl-stage
+  .owl-item
+  .img-item
+  .banner-info
+  .container
+  .banner-description
+  p {
+  font-weight: 400;
+  color: var(--white-color);
+  text-transform: capitalize;
+  line-height: 30px;
+  opacity: 0.9;
+}
+
+section
+  .slider-content
+  .owl-theme
+  .owl-stage-outer
+  .owl-stage
+  .owl-item
+  .img-item
+  .banner-info {
+  height: 100%;
+}
+section
+  .slider-content
+  .owl-theme
+  .owl-stage-outer
+  .owl-stage
+  .owl-item
+  .img-item
+  .item {
+  position: relative;
+  z-index: 0;
+}
+section
+  .slider-content
+  .owl-theme
+  .owl-stage-outer
+  .owl-stage
+  .owl-item
+  .img-item
+  .item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
+  z-index: -1;
+  background-color: #0c0c0c;
+}
+section
+  .slider-content
+  .owl-theme
+  .owl-stage-outer
+  .owl-stage
+  .owl-item
+  .img-item
+  .banner-info
+  .banner-info-left {
+  height: 100%;
+  /* background-color: #007bff; */
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+section
+  .slider-content
+  .owl-theme
+  .owl-stage-outer
+  .owl-stage
+  .owl-item
+  .img-item
+  .banner-info
+  .banner-info-left
+  a {
+  text-decoration: none;
+}
+.banner-title-left {
+  justify-content: left;
+}
+
+.banner-title-center {
+  justify-content: center;
+}
+section
+  .slider-content
+  .owl-theme
+  .owl-stage-outer
+  .owl-stage
+  .owl-item
+  .img-item
+  .banner-info
+  .banner-info-left
+  a.btn-white {
+  background-color: var(--white-color);
+  font-size: 18px;
+  font-weight: 400;
+  padding: 12px 35px;
+  text-transform: capitalize;
+  border-radius: var(--border-radius);
+  color: var(--primary-color);
+}
+
+section
+  .slider-content
+  .owl-theme
+  .owl-stage-outer
+  .owl-stage
+  .owl-item
+  .img-item
+  .banner-info
+  .banner-info-left
+  a.btn-black {
+  background-color: transparent;
+  border-radius: var(--border-radius);
+  border: 2px solid var(--white-color);
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px 35px;
+  text-transform: capitalize;
+  border-radius: var(--border-radius);
+  color: var(--white-color);
+}
+
+section
+  .slider-content
+  .owl-theme
+  .owl-stage-outer
+  .owl-stage
+  .owl-item
+  .img-item
+  .banner-info
+  .banner-info-left
+  a.btn-black:hover {
+  color: var(--primary-color);
+  background-color: var(--white-color);
+  transition: 0.3s ease-in;
+}
 /* End Main Slider  */
+
+/* Start About  */
+section.about {
+  padding: 3rem 0;
+}
+.about .container .about-content {
+  margin: 0 auto;
+  max-width: 700px;
+  text-align: center;
+}
+.about .container .about-content h6 {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 2em;
+  letter-spacing: 1px;
+  color: var(--secondary-color);
+}
+.about .container .about-content h3 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  text-transform: capitalize;
+}
+.about .container .about-content p {
+  line-height: 28px;
+  color: var(--font-color);
+  font-family: "Jost", sans-serif;
+  font-size: 1.2em;
+}
+.about .container .about-content a {
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 0;
+  margin-top: 20px;
+  display: inline-block;
+  text-transform: capitalize;
+  border-bottom: 2px solid var(--primary-color);
+  color: var(--heading-color);
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+}
+.about .container .about-content a:hover {
+  color: var(--primary-color);
+}
+/* End About  */
